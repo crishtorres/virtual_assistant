@@ -75,3 +75,5 @@
 [2021-01-10 12:58:55.411] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
 [2021-01-10 12:58:55.412] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain
 [2021-01-10 13:14:54.326] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 2386
+[2021-01-10 13:15:08.505] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 2386
+[2021-01-10 13:15:19.081] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 2386

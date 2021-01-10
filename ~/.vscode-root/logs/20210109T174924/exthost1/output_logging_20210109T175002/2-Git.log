@@ -28,3 +28,64 @@ Use '--' to separate paths from revisions, like this:
 > git ls-files --stage -- /home/cristian/python-projects/virtual-assistant/main.py
 > git check-ignore -v -z --stdin
 > git check-ignore -v -z --stdin
+> git status -z -u
+> git ls-files --stage -- /home/cristian/python-projects/virtual-assistant/main.py
+> git cat-file -s 73c638b5e8e2de86df7751b0c0138e6ef61e90e0
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git show --textconv :main.py
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/cristian/python-projects/virtual-assistant/main.py
+> git cat-file -s 73c638b5e8e2de86df7751b0c0138e6ef61e90e0
+> git show --textconv :main.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/cristian/python-projects/virtual-assistant/main.py
+> git cat-file -s 73c638b5e8e2de86df7751b0c0138e6ef61e90e0
+> git show --textconv :main.py
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git push -u origin master
+> git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+> git push -u origin master
+Missing or invalid credentials.
+Error: socket hang up
+    at connResetException (internal/errors.js:570:14)
+    at Socket.socketOnEnd (_http_client.js:440:23)
+    at Socket.emit (events.js:228:7)
+    at endReadableNT (_stream_readable.js:1185:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {
+  code: 'ECONNRESET'
+}
+remote: No anonymous write access.
+fatal: Authentication failed for 'https://github.com/cristdev/virtual_assistant.git/'
