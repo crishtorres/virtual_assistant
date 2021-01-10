@@ -1,0 +1,30 @@
+Looking for git in: git
+Using git 2.25.1 from git
+> git rev-parse --git-dir
+Open repository: /home/cristian/python-projects/auto-move-files
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+git.getSCMResource.uri file:///home/cristian/python-projects/virtual-assistant/main.py
+repo root /home/cristian/python-projects/auto-move-files
+> git rev-parse --git-dir
+Open repository: /home/cristian/python-projects/virtual-assistant
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :main.py
+> git ls-files --stage -- /home/cristian/python-projects/virtual-assistant/main.py
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
